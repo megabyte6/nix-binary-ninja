@@ -22,5 +22,5 @@ jobs:
         run: nix build
         timeout-minutes: 20
       - name: Run `nix flake check`
-        run: nix flake check --option max-jobs 1
+        run: nix flake check --option max-jobs 2
         timeout-minutes: 20
